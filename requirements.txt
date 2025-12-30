@@ -1,0 +1,9 @@
+google-api-python-client
+spotipy
+pandas
+networkx
+numpy
+scipy
+matplotlib
+seaborn
+python-dotenv

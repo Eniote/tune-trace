@@ -31,3 +31,19 @@ YouTube and Spotify operate as data silos. By integrating them, we aim to:
 - [ ] Specific scripst to handle string maching (fuzzy logic) for artist names and titles
 - [ ] Plan and execute a strategy to analyze the "sonic distance" between seed songs and recommended songs
 
+%%
+# Instruções de Configuração
+
+## On VSCode
+- Start a python env: `python -m venv .venv`
+- Allouw Command execuiton on the terminal `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+   - ps.: This will lower the safity of windows but i think it's necessery for my enviroment at lesast 
+- Restart the terminal
+- Download the libreries `pip install -r requirements.txt`
+- Create a file name .env and add the API Keys on it
+```python
+YOUTUBE_API_KEY=your_key_here
+SPOTIFY_CLIENT_ID=your_id_here
+SPOTIFY_CLIENT_SECRET=your_secret_here
+```
+%%
